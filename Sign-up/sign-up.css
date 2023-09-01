@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #e91e63, #d84778, #251e5f, #19105B);
+    background-size: 400% 400%;
+    animation: gradientAnimation 50s ease infinite;
+}
+
+.heading-sign {
+    color: #19105B;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Form Container */
+.signup-container-1 {
+    display: flex;
+    justify-content: flex-start; /* Align the form to the left */
+    align-items: center;
+    padding-left: 35px;
+    padding-top: 45px;
+    padding-right: 35px; /* Adjust the right padding as needed */
+    padding-bottom: 25px;
+}
+
+.signup-form-1 {
+    flex: 1;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
+    max-height: calc(100vh - 80px);
+    background: #F7F9FB !important;
+    border-color: #ffffff;
+}
+
+/* ... Other styles ... */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #e91e63, #d84778, #251e5f, #19105B);
+    background-size: 400% 400%;
+    animation: gradientAnimation 50s ease infinite;
+}
+
+.heading-sign {
+    color: #19105B;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Form Container */
+.signup-container-1 {
+    display: flex;
+    justify-content: flex-start; /* Align the form to the left */
+    align-items: center;
+    padding-left: 35px;
+    padding-top: 45px;
+    padding-right: 35px; /* Adjust the right padding as needed */
+    padding-bottom: 25px;
+}
+
+.signup-form-1 {
+    flex: 1;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
+    max-height: calc(100vh - 80px);
+    background: #F7F9FB !important;
+    border-color: #ffffff;
+}
+
+/* ... Other styles ... */
+
+/* ... Other styles ... */
+
+.input-group1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    /* background: #ffffff !important; */
+    border-color: #ffffff;
+}
+
+.input-group1 label {
+    margin-right: 20px;
+    width: 250px;
+}
+
+.input-group1 input,
+.input-group1 select {
+    border: none;
+    outline: none;
+     background-color:#e7e7e7 !important; 
+    border-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.checkbox-label span {
+    cursor: pointer;
+    color: #0b1827;
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+button[type="submit"] {
+    background-color: #19105B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1b0c6f;
+}
+
+
+/* Right side image */
+.RightSection-1 {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    justify-content: flex-end; /* Align the image to the right */
+}
+
+.RightSection-1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Custom scrollbar */
+.signup-form-1::-webkit-scrollbar {
+    width: 1px;
+}
+
+.close-button-tc {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+/* Right side image */
+.RightSection-1 {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    justify-content: flex-end; /* Align the image to the right */
+}
+
+.RightSection-1 img {
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Custom scrollbar */
+.signup-form-1::-webkit-scrollbar {
+    width: 1px;
+}
+
+.close-button-tc {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+
+.terms {
+
+
+
+    margin-top: 10px;
+
+
+
+    font-size: 14px;
+
+
+
+}
+
+
+
+
+
+
+
+.terms a {
+
+
+
+    text-decoration: none;
+
+
+
+    color: #007bff;
+
+
+
+}
+
+
+
+
+
+
+.terms-modal {
+
+
+
+    position: fixed;
+
+
+
+    top: 0;
+
+
+
+    left: 0;
+
+
+
+    width: 100%;
+
+
+
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+
+}
+
+
+.terms-content {
+
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    height: 580px;
+
+}
+
+
+
+
+
+
+
+.terms-content h2 {
+
+
+
+    margin-bottom: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.terms-content p {
+
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+
+}
+
+
+.terms-content button {
+
+
+
+    background-color: #19105B;
+
+
+
+    color: #fff;
+
+
+
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+
+.terms-content button:hover {
+    background-color: #0056b3;
+
+
+}

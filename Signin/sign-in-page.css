@@ -1,0 +1,136 @@
+.AppContainer {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.LeftSection {
+  flex: 1;
+  /* background: url('your-image-url.jpg') center/cover; */
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.RightSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* Stack the form and link vertically */
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  /* Adjust as needed */
+}
+
+.SigninForm {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  /* Adjust as needed */
+  margin: 0 auto;
+  /* Center the form horizontally */
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  /* Line between input and icon */
+  padding-bottom: 10px;
+  background: #F7F9FB !important;
+  border-color: #ffff;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  background: #F7F9FB !important;
+  border-color: #ffff;
+  width: 100%;
+  padding: 10px;
+}
+
+.input-group i {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #777;
+}
+
+.btn1-signin
+{
+    background-color: #31119b;
+    border: 2px solid #31119b;
+    border-radius: 0px !important;
+    height: 50px;
+    padding: 10px 20px;
+    color: white; /* Set default text color for both buttons */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.btn2-signin {
+  background-color: #fff;
+  border: 2px solid #31119b;
+  border-radius: 0px !important;
+  height: 50px;
+  padding: 10px 20px;
+  color: white; /* Set default text color for both buttons */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn1-signin i,
+.btn2-signin i {
+    margin-left: 10px; /* Space between text and arrow */
+}
+
+.btn1-signin:after,
+.btn2-signin:after {
+    content: '\2192'; /* Unicode arrow right character */
+    margin-left: 10px; /* Space between text and arrow */
+}
+
+.btn2-signin {
+    color: #31119b; /* Set specific color for the second button */
+}
+
+.btn1-signin:hover,
+.btn2-signin:hover {
+    border-color: #31119b; /* Change only the border color on hover */
+    background-color: white;
+}
+
+.signin-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Add space between buttons */
+.btn1-signin + .btn2-signin {
+    margin-left: 10px; /* Adjust as needed */
+}
+
+
+.SignUpLink {
+  margin-top: 10px;
+  /* Adjust as needed */
+}
+
+.SignUpLink a {
+  text-decoration: none;
+
+  color: white;
+}
